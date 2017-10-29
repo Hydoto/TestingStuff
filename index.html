@@ -1,8 +1,37 @@
 <html>
     <head>
-        <title>TESTING</title>
+        <title>Hargonia</title>
+        <style>
+            img{
+                position: absolute;
+            }
+            #hargonia{
+                font-size: 60px;
+                position: relative;
+                top: 200px;
+                left: 50px;
+                margin: 0px;
+                margin-bottom: 60px;
+                max-width: 300px;
+            }
+            #start{
+                position: relative;
+                font-size: 40px;
+                top:150px;
+                left: 50px;
+                
+            }
+
+        </style>
     </head>
     <body>
-        <p>Testing</p>
+        <img src=".\img\Continent of EastFall.png">
+        <p id="hargonia">Hargonia</p>
+        <button id="start" onclick="gostart()">NewGame</button>
+        <script>
+            function gostart(){
+                window.location.href = './Game/start.html';
+            }
+        </script>
     </body>
 </html>
