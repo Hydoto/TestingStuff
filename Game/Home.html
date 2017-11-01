@@ -2,12 +2,17 @@
     <title>Home</title>
     <body>
         <p>You arrive at a small house.</p>
-        <button onclick="GoTavern()">Go to the tavern</button>
+        <p>Where do you want to go next?</p>
+        <button onclick="GoTavern()">Tavern</button>
+        <button onclick="GoStreet()">Street</button>
     </body>
     <script>
         function GoTavern(){
             window.location.href = './Tavern.html';
             // Probably Make a street section to Make some mid ground
+        }
+        function GoStreet(){
+            window.location.href = './Street.html';
         }
     </script>
 </html>
